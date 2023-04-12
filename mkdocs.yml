@@ -1,17 +1,26 @@
-site_name: site
+site_name: River & Mona
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - navigation.expand
+    - navigation.path
     - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    #- toc.integrate  //关闭右边大纲
+    - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
   language: en
+  icon:
+    logo: material/library-shelves
   palette:
     - scheme: default
       toggle:
@@ -26,14 +35,69 @@ theme:
       primary: teal
       accent: lime
 
+# 右下角社交图标
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/river-li-tech/mkdocs
-    - icon: fontawesome/brands/twitter
-      link: https://github.com/river-li-tech/mkdocs
+    - icon: fontawesome/brands/github
+      link: https://github.com/river-li-tech
     - icon: fontawesome/brands/linkedin
-      link: https://github.com/river-li-tech/mkdocs
+      link: https://www.linkedin.cn/incareer/in/ACoAAC7H_k0BRTL_Fgr-ClbdGRxJzYPO0ckXwX0
+  # 隐藏mkdocs-material信息
+  generator: false
 
-copyright: 
-  Copyright @ <a href="https://github.com/river-li-tech/mkdocs" target="_blank" rel="noopener">River Li</a>
+# 版权信息
+copyright: Copyright &copy; <a href="https://github.com/river-li-tech/mkdocs" target="_blank" rel="noopener">River Li</a>
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# blog
+# 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
+# 需要先升级为sponser，付费才可以
+
+########################################################
+nav:
+  - Home: index.md
+  - River:
+    - river/index.md
+  - Mona:
+    - mona/index.md
