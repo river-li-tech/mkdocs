@@ -14,7 +14,7 @@ comments: true
 - [指令集描述文件](#指令集描述文件)
 
 ## 主界面
-![主界面](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/editor-main.png)
+![主界面](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/editor-main.png){ loading=lazy }
 
 编辑界面中各部分的作用如下：
 + **技能列表：**
