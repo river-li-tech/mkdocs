@@ -1,11 +1,13 @@
-site_name: River & Mona & Allen
+site_name: River, Mona & Allen
 theme:
   name: material
   custom_dir: overrides
-  language: en
+  language: zh
+  #logo: assets/logo.png
   features:
     - navigation.tabs
-    - navigation.sections
+    - navigation.tabs.sticky
+    #- navigation.sections
     - navigation.expand
     - navigation.path
     - navigation.top
@@ -19,8 +21,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  icon:
-    logo: material/library-shelves
   palette:
     - scheme: default
       toggle:
@@ -108,6 +108,11 @@ nav:
     - Tags: tags.md
   - River:
     - river/index.md
+    - 技能编辑器:
+      - 简介: river/skill-editor/visual-skill-editor-page-01-home.md
+      - 指令集: river/skill-editor/visual-skill-editor-page-02-instructions.md
+      - 运行时: river/skill-editor/visual-skill-editor-page-03-runtime.md
+      - 编辑器: river/skill-editor/visual-skill-editor-page-04-editor.md
   - Mona:
     - mona/index.md
   - Allen:

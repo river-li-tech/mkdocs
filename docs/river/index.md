@@ -1,11 +1,6 @@
 ---
-tags:
-  - HTML5
-  - JavaScript
-  - CSS
+comments: true
 ---
-
-# Welcome to MkDocs - River
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
