@@ -12,6 +12,7 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.indexes
+    - navigation.path
     #- navigation.footer
     #- toc.integrate  //关闭右边大纲
     - toc.follow
@@ -103,9 +104,6 @@ markdown_extensions:
 
 ########################################################
 nav:
-  - Home: 
-    - index.md
-    - Tags: tags.md
   - River:
     - river/index.md
     - 技能编辑器:
@@ -117,3 +115,5 @@ nav:
     - mona/index.md
   - Allen:
     - allen/index.md
+  - About:
+    - tags.md
