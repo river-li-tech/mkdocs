@@ -128,7 +128,15 @@ nav:
       - 编辑器: river/skill-editor/visual-skill-editor-page-04-editor.md
   - Mona:
     - mona/index.md
+    - 主题:
+      - page1: mona/pages/page1.md
+      - page2: mona/pages/page2.md
+      - page3: mona/pages/page3.md
   - Allen:
     - allen/index.md
+    - 主题:
+      - page1: allen/pages/page1.md
+      - page2: allen/pages/page2.md
+      - page3: allen/pages/page3.md
   - About:
     - Tags: tags.md
