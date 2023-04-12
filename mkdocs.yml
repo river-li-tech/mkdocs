@@ -48,6 +48,11 @@ extra:
 # 版权信息
 copyright: Copyright &copy; <a href="https://github.com/river-li-tech/mkdocs" target="_blank" rel="noopener">River Li</a>
 
+# 插件
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
 # Extensions
 markdown_extensions:
   - abbr
