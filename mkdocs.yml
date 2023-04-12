@@ -2,6 +2,7 @@ site_name: River & Mona
 theme:
   name: material
   custom_dir: overrides
+  language: en
   features:
     - navigation.tabs
     - navigation.sections
@@ -9,7 +10,7 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.indexes
-    - navigation.footer
+    #- navigation.footer
     #- toc.integrate  //关闭右边大纲
     - toc.follow
     - search.suggest
@@ -18,7 +19,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
   icon:
     logo: material/library-shelves
   palette:
@@ -32,26 +32,28 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
+      primary: brown
       accent: lime
 
 # 右下角社交图标
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/river-li-tech
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.cn/incareer/in/ACoAAC7H_k0BRTL_Fgr-ClbdGRxJzYPO0ckXwX0
+#  social:
+#    - icon: fontawesome/brands/github
+#      link: https://github.com/river-li-tech
+#    - icon: fontawesome/brands/linkedin
+#      link: https://www.linkedin.cn/incareer/in/ACoAAC7H_k0BRTL_Fgr-ClbdGRxJzYPO0ckXwX0
   # 隐藏mkdocs-material信息
-  generator: false
+  generator: false  
 
 # 版权信息
-copyright: Copyright &copy; <a href="https://github.com/river-li-tech/mkdocs" target="_blank" rel="noopener">River Li</a>
+# copyright: Copyright &copy; <a href="https://github.com/river-li-tech/mkdocs" target="_blank" rel="noopener">River Li</a>
 
 # 插件
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags:
+      tags_file: tags.md
 
 # Extensions
 markdown_extensions:
@@ -101,8 +103,12 @@ markdown_extensions:
 
 ########################################################
 nav:
-  - Home: index.md
+  - Home: 
+    - index.md
+    - Tags: tags.md
   - River:
     - river/index.md
   - Mona:
     - mona/index.md
+  - Allen:
+    - allen/index.md
