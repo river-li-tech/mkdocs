@@ -9,14 +9,15 @@ comments: true
 
 ## 内容列表
 
+- [内容列表](#内容列表)
 - [技能段落](#技能段落)
 - [技能指令](#技能指令)
 - [参数说明](#参数说明)
-- [关键设计](#关键设计)
-    - [如何控制时间](#如何控制时间)
-    - [如何表达条件控制语句](#如何表达条件控制语句)
-    - [如何实现goto到自定义的section](#如何实现goto到自定义的section)
-    - [如何实现并行逻辑](#如何实现并行逻辑)
+- [关键设计：](#关键设计)
+  - [如何控制时间](#如何控制时间)
+  - [如何表达条件控制语句](#如何表达条件控制语句)
+  - [如何实现goto到自定义的section](#如何实现goto到自定义的section)
+  - [如何实现并行逻辑](#如何实现并行逻辑)
 
 ## 技能段落
 
@@ -29,7 +30,7 @@ comments: true
 + 段落-自定义段落：id可自定义，通过gotosection触发调用，相当于过程调用；
 + 段落-自定义事件：id可自定义，通过sendevent触发，与其他段落并发执行；
 
-![段落结构](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/guild-sections.png)
+![段落结构](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/guild-sections.png)
 
 ## 技能指令
 
@@ -43,20 +44,20 @@ comments: true
 + 指令-效果：操作效果(impact)；
 + 指令-工具：辅助指令，只用于编辑器；
 
-![事件指令列表1](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/guild-actions1.png)
-![事件指令列表1](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/guild-actions2.png)
+![事件指令列表1](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/guild-actions1.png)
+![事件指令列表1](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/guild-actions2.png)
 
 **条件指令**抽象出逻辑控制中可能的一些判断条件，用于运行时修改技能的执行轨迹。
 >条件指令只返回true/false，供事件指令中的控制指令使用；
 >只对个别必需的条件才独立为指令，因此条件指令的数目需要严格控制。
 在项目实践中发现，多数策划难以驾驭过于复杂的控制逻辑，所以在设计中倾向于将条件内置到事件指令中（作为其一个参数）。
 
-![条件指令列表](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/guild-conds.png)
+![条件指令列表](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/guild-conds.png)
 
 ## 参数说明
 
 每个指令都具有多个参数，通过key-value的方式描述。以scancircle(圆形扫描)为例：
-![参数说明](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/guild-params.png)
+![参数说明](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/guild-params.png)
 如图所示，参数中规定了此指令的数据类型和范围，以及是否需要强制配置等信息
 
 以上截图来自[指令集描述文件](https://github.com/river-li-tech/VisualSkillEditor/blob/master/Bin/Config/SkillSpec.xml)
@@ -73,7 +74,7 @@ comments: true
 ### 如何表达条件控制语句
 > 条件语句本身就是一个xml中的一个节点，但如何表示条件却又两种方式：一是将条件保存为节点的属性，这种方式可行且简洁，但条件参数含义难以自描述（只能使用通用属性）；另一种方式是将条件保存为节点的子节点，我这在这选择此方式，因为子节点的方式更有利于扩展和组织。
 > 一个if/elseif/else的结构表示为（对应为select指令）:
-> ![select语句](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/select.png)
+> ![select语句](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/select.png)
 
 ### 如何实现goto到自定义的section
 > 自定义section放入section节点，如上图“技能逻辑结构”所示。通过gotosection(跳转到段落)指令实现执行流的跳转（原执行流的逻辑不再执行）。
@@ -85,7 +86,7 @@ comments: true
 
 ### 如何实现并行逻辑
 > 有时候希望技能以多条时间轴并行方式运行，如下图所示：
-> ![并行](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/concurrent.png)
+> ![并行](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/concurrent.png)
 > sendevent(触发事件)指令即可实现此功能，将需要并发运行的逻辑组织为一个on节点，如上图“技能逻辑结构”所示。此指令也可用于向游戏发送各种指令，触发其它游戏系统，如场景效果、剧情逻辑等；通过以下指令可并行地触发并行逻辑；
 ```xml
 <action id="sendevent" eventid="evt_name"/>

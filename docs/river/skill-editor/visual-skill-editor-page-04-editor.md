@@ -9,11 +9,12 @@ comments: true
 
 ## 内容列表
 
+- [内容列表](#内容列表)
 - [主界面](#主界面)
 - [指令集描述文件](#指令集描述文件)
 
 ## 主界面
-![主界面](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/editor-main.png)
+![主界面](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/editor-main.png)
 
 编辑界面中各部分的作用如下：
 + **技能列表：**

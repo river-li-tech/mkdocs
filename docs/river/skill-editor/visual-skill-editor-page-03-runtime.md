@@ -38,7 +38,7 @@ comments: true
 **调用技能**
 1. 外部环境只需调用SkillInst上的接口即可驱动所有技能                
 
-![静态逻辑实现](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/runtime.png)
+![静态逻辑实现](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/runtime.png)
 
 ## 获取源码
 is coming...
@@ -53,7 +53,7 @@ is coming...
 #### 1.一种类似处理器指令集的实现方式：
 在处理器执行CPU指令前，编译器针对抽象语法树，展平其控制语句为顺序指令队列，并在其上完成符号解析和重定位，使得执行引擎只需逐条顺序执行即可，同时无需解析数据（类似汇编代码）。使得后续技能运行时只需逐条顺序执行指令即可，无需管理配置数据和递归执行语法树。将xml文件转换为txt格式的二维顺序指令队列，如下图所示：
 
-![顺序指令文件](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/sequences.png)
+![顺序指令文件](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/sequences.png)
 
 > 关于CPU指令集可[参考](https://en.wikipedia.org/wiki/Instruction_set_architecture)
 > 关于编译器链接过程可[参考](https://en.wikipedia.org/wiki/Linker_(computing)#Relocation)
@@ -63,7 +63,7 @@ is coming...
 **2.1 展平控制语句**
 
 所有if/while/for/switch控制语句都可用goto实现，以下分别是if, do-while, while, for, switch的跳转指令版本：
-![控制语句](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/control-flow.png)
+![控制语句](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/control-flow.png)
 
 实现算法可参考编辑器源码 
 ``` cpp
@@ -98,7 +98,7 @@ void syncCurSkillAction(SkillInstDataPtr instDataPtr);
 > 1.计算下一条指令的地址
 
 此算法非常简单，代码不超过200行，以下是截取的取指过程(C#实现)
-![runtime实现](https://raw.githubusercontent.com/river-li-tech/VisualSkillEditor/101f8a91cde17e05fffdb78eb3bb4ed04ffefe2d/SkillEditor/Guild/runtime-code.png)
+![runtime实现](https://river-li-tech.github.io/mkdocs/river/skill-editor/visualskilleditor/runtime-code.png)
 
 **2.4 更进一步的优化**
 将顺序指令队列保存为二进制格式，可使得指令的加载速率更高，同时，可避免文件中大量不必要的空数据。
