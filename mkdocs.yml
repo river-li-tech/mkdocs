@@ -46,7 +46,7 @@ extra:
   generator: false  
 
 # 版权信息
-# copyright: Copyright &copy; <a href="https://github.com/river-li-tech/mkdocs" target="_blank" rel="noopener">River Li</a>
+copyright: 2023.4.12 @ Beijing 
 
 # 插件
 plugins:
