@@ -134,9 +134,7 @@ nav:
       - page3: mona/pages/page3.md
   - Allen:
     - allen/index.md
-    - 主题:
-      - page1: allen/pages/page1.md
-      - page2: allen/pages/page2.md
-      - page3: allen/pages/page3.md
+    - 信息学:
+      - 2023暑假练习题: allen/noi/2023-summer-exercises.md
   - About:
     - Tags: tags.md
