@@ -135,6 +135,11 @@ nav:
   - Allen:
     - allen/index.md
     - 信息学:
-      - 2023暑假练习题: allen/noi/2023-summer-exercises.md
+      - 2023暑假练习题: allen/noi/b01-2023-summer-exercises.md
+      - 专题-二分查找: allen/noi/a01-topic-binary-search.md
+      - 专题-进制转换: allen/noi/a02-topic-radix-exchange.md
+      - 专题-前缀和: allen/noi/a03-topic-prefix-sum.md
+      - 专题-枚举: allen/noi/a04-topic-enumeration.md
+      - 专题-迭代: allen/noi/a05-topic-iteration.md
   - About:
     - Tags: tags.md
