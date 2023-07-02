@@ -18,3 +18,6 @@ tags:
 * [B11	矩形分割数据加强版](http://hihocoder.openjudge.cn/2021summers3/B11/)
 * [B12	加工产品](http://hihocoder.openjudge.cn/2021summers3/B12/)
 * [B13	小朋友分巧克力](http://hihocoder.openjudge.cn/2021summers3/B13/)
+
+## 其它
+* [G:查找小于X的最大值](http://hihocoder.openjudge.cn/2023springs3xdafterexam/G/)

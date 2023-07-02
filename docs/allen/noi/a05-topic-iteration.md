@@ -33,7 +33,7 @@ tags:
 * [R20	全排列](http://hihocoder.openjudge.cn/2021summers3/R20/)
 * [R32	数字全排列2](http://hihocoder.openjudge.cn/2021summers3/R32/)
 
-## 排列组合-进阶
+## 排列组合进阶
 * [R23	放苹果](http://hihocoder.openjudge.cn/2021summers3/R23/)
 * [R25	神奇的口袋](http://hihocoder.openjudge.cn/2021summers3/R25/)
 * [R34	最少砝码](http://hihocoder.openjudge.cn/2021summers3/R34/)
