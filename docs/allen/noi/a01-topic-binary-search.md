@@ -14,6 +14,7 @@ tags:
 * [B08	查找最接近的元素](http://hihocoder.openjudge.cn/2021summers3/B08/)
 
 ## 应用
+* [B07 查找学生姓名](http://hihocoder.openjudge.cn/2021summers3/B07/)
 * [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
 * [B11	矩形分割数据加强版](http://hihocoder.openjudge.cn/2021summers3/B11/)
 * [B12	加工产品](http://hihocoder.openjudge.cn/2021summers3/B12/)

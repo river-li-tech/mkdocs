@@ -3,17 +3,14 @@ comments: true
 tags:
   - 信息学
 ---
-  
+
 ### 2023.7.5 （90 min）
 * 练习题：
-    * [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
-    * [B11	矩形分割数据加强版](http://hihocoder.openjudge.cn/2021summers3/B11/)
-
+    * [B07 查找学生姓名](http://hihocoder.openjudge.cn/2021summers3/B07/)
+    * [B13 小朋友分巧克力](http://hihocoder.openjudge.cn/2021summers3/B13/)
+    * [挑战] [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
 * 整理笔记：
-    * 在笔记中写出 **二分查找算法** 基础模板；
     * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
-
-
 
 ### 2023.7.4 （100 min）
 * 练习题：
