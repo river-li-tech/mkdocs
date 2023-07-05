@@ -8,10 +8,15 @@ tags:
 * 练习题：
     * [B07 查找学生姓名](http://hihocoder.openjudge.cn/2021summers3/B07/)
     * [B13 小朋友分巧克力](http://hihocoder.openjudge.cn/2021summers3/B13/)
-    * [挑战] [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
+  
 * 整理笔记：
     * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
 
+* 尝试阅读以下文章：
+    * [C++ lower_bound自定义比较详解](https://zhuanlan.zhihu.com/p/627464912)
+    * 运行文章中的的示例代码
+    * 将文章的重点内容整理到笔记中
+    * 
 ### 2023.7.4 （100 min）
 * 练习题：
     * ✔ [B04	在不下降数组中查找X](http://hihocoder.openjudge.cn/2021summers3/B04/) ★
