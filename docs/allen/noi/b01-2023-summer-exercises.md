@@ -4,6 +4,13 @@ tags:
   - 信息学
 ---
 
+### 2023.7.6 （90 min）
+* 练习题：
+    * [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
+  
+* 整理笔记：
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+  
 ### 2023.7.5 （90 min）
 * 练习题：
     * [B07 查找学生姓名](http://hihocoder.openjudge.cn/2021summers3/B07/)
