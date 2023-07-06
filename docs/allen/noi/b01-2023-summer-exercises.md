@@ -4,6 +4,16 @@ tags:
   - 信息学
 ---
 
+### 2023.7.7 （90 min）
+* 练习题：
+    * [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
+    * [B11	矩形分割数据加强版](http://hihocoder.openjudge.cn/2021summers3/B11/)
+> 提示：B11和B09题意完全相同，只是B11比B09数据更严格，二次查找下标时如果遍历[minp, r]仍可能超时，
+> 所以需要用2次二分查找
+
+* 整理笔记：
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+
 ### 2023.7.6 （90 min）
 * 练习题：
     * [B09	矩形分割](http://hihocoder.openjudge.cn/2021summers3/B09/)
