@@ -3,6 +3,17 @@ comments: true
 tags:
   - 信息学
 ---
+
+### 2023.7.11 （90 min）
+* 练习题：
+    * [S03	最大和](http://hihocoder.openjudge.cn/2021summers3/S03/)
+    * [S04	修改数组](http://hihocoder.openjudge.cn/2021summers3/S04/)
+    * [S05	领地选择](http://hihocoder.openjudge.cn/2021summers3/S05/)
+
+* 整理笔记：
+    * 试着阅读S03-2.cpp代码
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+
 ### 2023.7.10 （90 min）
 * 练习题：
     * [S01	前缀和](http://hihocoder.openjudge.cn/2021summers3/S01/)
@@ -31,6 +42,8 @@ tags:
         数组序号    0       1       2       3       4       5       6    ...    n  
         数组举例    4       -3      6       3       -4      9  
         前缀和      0       4       1       7       10      6       15  
+>> 能在限定时间内完成习题并做完笔记，效率很高！！
+
 
 ### 2023.7.7 （90 min）
 * 练习题：
