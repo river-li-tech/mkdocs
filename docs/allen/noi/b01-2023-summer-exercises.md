@@ -4,6 +4,15 @@ tags:
   - 信息学
 ---
 
+### 2023.7.12 （90 min）
+* 练习题：
+    * [S04	修改数组](http://hihocoder.openjudge.cn/2021summers3/S04/)
+    * [S05	领地选择](http://hihocoder.openjudge.cn/2021summers3/S05/)
+
+* 整理笔记：
+    * 试着阅读S04.cpp和S05.cpp代码
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+
 ### 2023.7.11 （90 min）
 * 练习题：
     * [S03	最大和](http://hihocoder.openjudge.cn/2021summers3/S03/)
