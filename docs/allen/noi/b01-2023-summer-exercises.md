@@ -4,6 +4,16 @@ tags:
   - 信息学
 ---
 
+### 2023.7.13 （90 min）
+* 练习题：
+    * [E05	我家的门牌号](http://hihocoder.openjudge.cn/2021summers3/E05/) 
+    * [E06	不定方程求解](http://hihocoder.openjudge.cn/2021summers3/E06/) 
+    * [E09	数字方格](http://hihocoder.openjudge.cn/2021summers3/E09/) 
+    * [E10	满足条件的整数](http://hihocoder.openjudge.cn/2021summers3/E10/) 
+
+* 整理笔记：
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+
 ### 2023.7.12 （90 min）
 * 练习题：
     * [S04	修改数组](http://hihocoder.openjudge.cn/2021summers3/S04/)
