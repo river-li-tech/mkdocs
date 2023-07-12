@@ -1,0 +1,15 @@
+---
+comments: true
+tags:
+  - HTML5
+hide:
+  - navigation
+  - toc
+  - path  
+  - footer
+---
+
+# 空页面
+- 隐藏左侧导航栏
+- 隐藏右侧目录
+- 隐藏页脚
