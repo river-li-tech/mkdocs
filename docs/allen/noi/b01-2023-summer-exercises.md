@@ -3,6 +3,16 @@ comments: true
 tags:
   - 信息学
 ---
+### 2023.7.14 （90 min）
+* 练习题：
+    * [E17	最简真分数](http://hihocoder.openjudge.cn/2021summers3/E17/)
+    * [E21	质数的和与积](http://hihocoder.openjudge.cn/2021summers3/E21/)
+    * [E25	分数求和](http://hihocoder.openjudge.cn/2021summers3/E25/)
+    * [E26	回文素数](http://hihocoder.openjudge.cn/2021summers3/E26/)
+
+* 整理笔记：
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+    * E25, E26之前没有做过，如果没调通，也可以只在笔记中写思路即可
 
 ### 2023.7.13 （90 min）
 * 练习题：
