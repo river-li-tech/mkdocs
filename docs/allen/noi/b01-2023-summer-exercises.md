@@ -3,6 +3,14 @@ comments: true
 tags:
   - 信息学
 ---
+### 2023.7.20 （90 min）
+* 练习题：
+    * [E36	选题](http://hihocoder.openjudge.cn/2021summers3/E36/)
+    * [E20	砝码称重](http://hihocoder.openjudge.cn/2021summers3/E20/)
+
+* 整理笔记：
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+
 ### 2023.7.19 （90 min）
 * 练习题：
     * [E22	五户共井问题](http://hihocoder.openjudge.cn/2021summers3/E22/)
