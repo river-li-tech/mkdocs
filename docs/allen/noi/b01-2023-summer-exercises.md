@@ -3,6 +3,14 @@ comments: true
 tags:
   - 信息学
 ---
+### 2023.7.24 （30 min）
+* 练习题：
+    * [E27	十进制到八进制](http://hihocoder.openjudge.cn/2021summers3/E27/) 
+    * [E28	八进制到十进制](http://hihocoder.openjudge.cn/2021summers3/E28/) 
+
+* 整理笔记：
+    * 每道题写出推理过程，将 **关键思路** 整理到笔记中；
+
 ### 2023.7.20 （90 min）
 * 练习题：
     * [E36	选题](http://hihocoder.openjudge.cn/2021summers3/E36/)
